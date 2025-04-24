@@ -1,0 +1,20 @@
+// inclua as bibliotecas e definas as variáveis globais de entrada e saída do modelo
+#include <stdlib.h>
+#include <stdio.h>
+
+int a = 5, b = 2, c = 7, d = 8;
+int crescente;
+
+// -- escreva seu código abaixo, não altere esta linha
+
+
+
+int main() {
+    crescente=1;
+    if(b<a) crescente=0;
+    if(c<b) crescente=0;
+    if(d<c) crescente=0;
+    
+    printf("%d\n", crescente);
+
+}
